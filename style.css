@@ -10,9 +10,9 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 body {
-  background: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 11%, rgba(45,45,176,1) 69%, rgba(0,212,255,1) 100%);
-
+ background: rgb(0,212,255);
+background: linear-gradient(180deg, rgba(0,212,255,1) 7%, rgba(45,45,176,1) 57%, rgba(2,0,36,1) 88%);
+}
 .wrapper {
 /*
   background-color: lightpink;
