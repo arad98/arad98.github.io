@@ -10,8 +10,8 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 body {
-background: rgb(27,119,245);
-background: linear-gradient(90deg, rgba(27,119,245,1) 0%, rgba(70,70,252,1) 100%);
+background: rgb(77,119,177);
+background: linear-gradient(rgba(77,119,177,1) 0%, rgba(70,144,252,1) 100%);
 }
 .wrapper {
 /*
