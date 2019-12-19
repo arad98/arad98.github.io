@@ -1,4 +1,3 @@
-
 html, body {
   display: flex;
   align-items: center;
@@ -10,13 +9,13 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 body {
-background: rgb(77,119,177);
-background: linear-gradient(rgba(77,119,177,1) 0%, rgba(70,144,252,1) 100%);
+    background: rgb(77,119,177);
+    background: linear-gradient(rgba(77,119,177,1) 0%, rgba(70,144,252,1) 100%);
 }
 .wrapper {
-/*
-  background-color: lightpink;
-*/
+
+  background-color: orange;
+
   max-width: 45%;
   display: flex;
   flex-direction: row;
@@ -24,9 +23,9 @@ background: linear-gradient(rgba(77,119,177,1) 0%, rgba(70,144,252,1) 100%);
 }
 
 .left, .right {
-/*
+
   background-color: lightblue;
-*/
+
   margin: 5px;
   max-width: 50%;
   flex: 1;
@@ -40,6 +39,7 @@ background: linear-gradient(rgba(77,119,177,1) 0%, rgba(70,144,252,1) 100%);
   justify-content: center;
 }
 
+
 .name {
   font-family: 'Roboto', sans-serif;
   margin-bottom: 2px;
@@ -49,15 +49,16 @@ img {
   border-radius: 50%;
 }
 
-social-links {
+.social-links {
   list-style: none;
   padding-left: 0px;
   font-size: 18px;
+  margin-left: 15px;
 }
 
 .social-links li {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 25px;
 }
 
 .social-links a {
@@ -68,7 +69,3 @@ social-links {
 .social-links a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
-
-
-
-
